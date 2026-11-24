@@ -1,0 +1,28 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"id": "secondwave-robolift",
+	"name": "secondwave-robolift",
+	"shortname": "robolift",
+	"description": "Second Wave Robo Lift – MoPed Controller: motorised pedestal via VISCA over IP Data Box",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-secondwave-robolift.git",
+	"bugs": "https://github.com/bitfocus/companion-module-secondwave-robolift/issues",
+	"maintainers": [
+		{
+			"name": "Schnittpunkt UG",
+			"email": "info@rechtschnell.com"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "1.12.1",
+		"entrypoint": "../src/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Second Wave",
+	"products": ["Robo Lift – MoPed Controller", "Motorized Pedestal Model 30", "VISCA over IP Data Box"],
+	"keywords": ["pedestal", "lift", "visca", "camera", "column"],
+	"isPrerelease": false
+}
